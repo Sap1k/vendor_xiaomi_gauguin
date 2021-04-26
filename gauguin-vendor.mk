@@ -43,9 +43,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gauguin/proprietary/system_ext/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/gauguin/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.0.so \
     vendor/xiaomi/gauguin/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/etc/permissions/com.google.android.feature.PREMIER_TIER.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/permissions/com.google.android.feature.PREMIER_TIER.xml \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/etc/qvaconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/qvaconfig.xml \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib/camera/com.qti.sensormodule.sunny_imx682.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/camera/com.qti.sensormodule.sunny_imx682.bin \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin \
     vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib/liboemcrypto.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/liboemcrypto.so \
-    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/liboemcrypto.so \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib/libwvkeybox.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libwvkeybox.so \
     vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib64/camera/com.qti.sensormodule.sunny_imx682.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/camera/com.qti.sensormodule.sunny_imx682.bin \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/camera/com.qti.tuned.gauguin_sunny_imx682_wide.bin \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/liboemcrypto.so \
+    vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libwvkeybox.so \
     vendor/xiaomi/gauguin/proprietary/product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
